@@ -1,13 +1,13 @@
 # Exercício SQL 1 - Profissão do Século
 
-###Tópico 1:
+### Tópico 1:
 
 SELECT DISTINCT
     nome_vendedor
 FROM desafio_sql_1
 
 
-###Tópico 2:
+### Tópico 2:
 
 SELECT
     nome_vendedor,
@@ -18,7 +18,7 @@ GROUP BY nome_vendedor
 ORDER BY total_vendas DESC
 
 
-###Tópico 3 - 1ª solução:
+### Tópico 3 - 1ª solução:
 
 SELECT 
     MONTH(Data_venda) AS Mes,
@@ -30,7 +30,7 @@ GROUP BY Mes
 ORDER BY Total_Faturamento DESC
 LIMIT 1
 
-###Tópico 3 - 2ª solução:
+### Tópico 3 - 2ª solução:
 
 SELECT 
     CONCAT(MONTH(Data_venda), '-', YEAR(Data_venda)) AS Mes_Ano,
@@ -42,7 +42,7 @@ ORDER BY Total_Faturamento DESC
 LIMIT 1
 
 
-###Tópico 4:
+### Tópico 4:
 
 SELECT
     valor_venda
@@ -52,7 +52,7 @@ ORDER BY valor_venda DESC
 LIMIT 10
 
 
-###Tópico 5:
+### Tópico 5:
 
 SELECT
     status_negociacao,
