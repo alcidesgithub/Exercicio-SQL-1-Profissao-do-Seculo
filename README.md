@@ -1,0 +1,1 @@
+# Exerc-cio-SQL-1---Profiss-o-do-S-culo
