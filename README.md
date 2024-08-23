@@ -1,12 +1,10 @@
 # Exercício SQL 1 - Profissão do Século
 
 ### Tópico 1:
-
-SELECT DISTINCT
     
-    nome_vendedor
-    
-FROM desafio_sql_1
+    SELECT DISTINCT
+        nome_vendedor
+    FROM desafio_sql_1
 
 
 ### Tópico 2:
