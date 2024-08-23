@@ -1,5 +1,13 @@
 # Exercícios de SQL #1
 
+## Responda as seguintes perguntas utilizando a linguagem SQL:
+
+1. Crie uma consulta para retornar o nome distinto dos vendedores;
+2. Crie uma consulta para retornar o valor total das vendas realizadas por cada vendedor, ordenando do maior valor, até o menor valor;
+4. Crie uma consulta para retornar o mês e o ano em que tivemos o maior faturamento em vendas;
+5. Crie uma consulta para retornar as 10 primeiras vendas que foram realizadas;
+6. Crie uma consulta para retornar a quantidade de vendas para cada um dos status.
+
 ### Tópico 1:
     
     SELECT DISTINCT
