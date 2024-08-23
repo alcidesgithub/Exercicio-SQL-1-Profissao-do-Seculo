@@ -1,4 +1,4 @@
-# Exercício SQL 1 - Profissão do Século
+# Exercícios de SQL #1
 
 ### Tópico 1:
     
