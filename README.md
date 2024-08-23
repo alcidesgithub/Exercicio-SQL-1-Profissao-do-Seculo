@@ -3,6 +3,7 @@
 ### Tópico 1:
 
 SELECT DISTINCT
+    
     nome_vendedor
     
 FROM desafio_sql_1
