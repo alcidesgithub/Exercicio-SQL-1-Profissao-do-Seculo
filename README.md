@@ -53,10 +53,11 @@
 ### Tópico 4:
 
     SELECT
+        data_venda,
         valor_venda
     FROM desafio_sql_1
     WHERE status_negociacao ='Vendido'
-    ORDER BY valor_venda DESC
+    ORDER BY data_venda
     LIMIT 10
 
 
